@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 0px;
+    width: 100%;
+
+
+    /* background-color: aquamarine; */
+    header.site-header {
+        background-color: black;
+        top: 0;
+        height: 80px;
+
+        width: 100%;
+
+        .btn btn-outline-success {
+            width: 100%;
+            display: flex;
+
+        }
+
+        .container-fluid {
+            width: 100%;
+            padding-top: 0%;
+            /* position: ; */
+
+
+
+
+        }
+
+        .btn-primary {
+            margin-right: 200px;
+
+        }
+
+    }
+
+    .d-flex {
+        .ms-1 {
+            margin-top: 9px;
+             
+
+        }
+        input{
+            color: white(17, 21, 255);
+            /* background-color: blanchedalmond; */
+            
+        }
+
+        #search{
+    font-weight: bold;
+
+        }
+    }
+
+    .text-body-secondary {
+        margin-top: 09px;
+
+        .ms-2 {
+            margin-top: 9px;
+        
+        
+
+        }
+
+    }
+
+
+    .btn-primary {
+        margin-right: 40px;
+
+        .bi-list {
+            margin-left: 0px;
+            align-items: start;
+        }
+
+
+
+    }
+
+
+
+}
+
+
+.offcanvas {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    div {
+        height: 100%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .dropdown {
+            /* background-color: aqua; */
+            height: 40px;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+nav.navbar {
+    width: 100%;
+    padding: 10px 20px 10px 30px;
+    /* The above padding is given in the order top left bottom and right */
+    /* padding-left: 20px;
+                padding-right: 20px; */
+
+
+    .logo-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        padding-left: 0%;
+
+
+        img {
+            height: 100%;
+            width: 100%;
+
+
+        }
+    }
+}
+
+
+main {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+
+    section.image-carousel {
+        padding-top: 0px;
+        height: px;
+        overflow-y: hidden;
+
+        div.carousel {
+            height: 100%;
+
+            div.carousel-item {
+
+
+                height: 100%;
+
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+
+
+
+    article {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+.testimonial{
+    /* background-color: aqua; */
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    .col-7:hover {
+        transform: translateY(-10px);
+    }
+
+    
+    .row-7{
+        width: 100%;
+        float: left;
+        width: 33.3%;
+        padding: 0px 8px;
+        margin-bottom: 40px;
+    }
+    .col-7{
+        width: 100%;
+        align-items: center;
+        padding: 40px 20px;
+        margin-top: 16px;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, 1);
+        text-align: center;
+        padding: 40px 20px;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, 1);
+        cursor: pointer;
+        transition: transform 0.5s;
+
+    }
+    img{
+        width: 50px;
+        border-radius: 50%;
+        /* align-items: center; */
+        margin-top: 20px;
+
+    }
+    .rating {
+        color: #ff523b;
+        text-align: center;
+        align-items: center;
+    }
+    .bi-chat-left-quote {
+        font-size: 3ch;
+        margin-right: 30px;
+        /* background-color: #ff523b; */
+    }
+}
+.div{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    margin-left: 13px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+   
+    .div-1{
+        width: 100%;
+        margin-bottom: 50px;
+       
+    }
+    .div-1 :hover{
+        width: 100%;
+        transform: translateY(-10px);
+        
+    }
+    
+
+    img{
+        height: 60px;
+        padding: 3px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 40%;
+        object-fit: contain;
+        filter: grayscale(100%);
+        cursor: pointer;
+        
+    }
+    .div-1 img:hover{
+        filter: grayscale(0);
+    }
+
+}
+footer {
+    height: 30px;
+    /* border: 1px solid; */
+    margin: 0;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    margin-top: 100%;
+    position: fixed;
+    height: 9%;
+    bottom: 0%;
+
+    i {
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+    }
+}
+
